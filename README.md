@@ -1,4 +1,4 @@
-# Professional Training Platform API (UpSkillers)
+#  UpSkillers
 
 ## Project Overview
 This project involves developing a REST API using Spring Boot to manage a professional training platform. The platform will allow for the management of trainees, trainers, training courses, and training sessions.
