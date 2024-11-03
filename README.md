@@ -41,7 +41,7 @@ git clone https://github.com/bachiriy/UpSkillers.git
 The application will be available at `http://localhost:8080`.
 
 ## Documentation
-- The Swagger documentation for the API is available at `/swagger-ui.html`.
+- The Swagger documentation for the API is available at `http://localhost:8080/swagger-ui`
 - A Postman collection is provided in the project repository for testing the API endpoints.
 
 ## Contributing
