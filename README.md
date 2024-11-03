@@ -40,31 +40,6 @@ git clone https://github.com/bachiriy/UpSkillers.git
 
 The application will be available at `http://localhost:8080`.
 
-## API Endpoints
-
-| Method | Endpoint | Description |
-| --- | --- | --- |
-| GET | `/api/trainees` | Get all trainees |
-| POST | `/api/trainees` | Create a new trainee |
-| GET | `/api/trainees/{id}` | Get a trainee by ID |
-| PUT | `/api/trainees/{id}` | Update a trainee |
-| DELETE | `/api/trainees/{id}` | Delete a trainee |
-| GET | `/api/trainers` | Get all trainers |
-| POST | `/api/trainers` | Create a new trainer |
-| GET | `/api/trainers/{id}` | Get a trainer by ID |
-| PUT | `/api/trainers/{id}` | Update a trainer |
-| DELETE | `/api/trainers/{id}` | Delete a trainer |
-| GET | `/api/courses` | Get all training courses |
-| POST | `/api/courses` | Create a new training course |
-| GET | `/api/courses/{id}` | Get a training course by ID |
-| PUT | `/api/courses/{id}` | Update a training course |
-| DELETE | `/api/courses/{id}` | Delete a training course |
-| GET | `/api/classes` | Get all training classes |
-| POST | `/api/classes` | Create a new training class |
-| GET | `/api/classes/{id}` | Get a training class by ID |
-| PUT | `/api/classes/{id}` | Update a training class |
-| DELETE | `/api/classes/{id}` | Delete a training class |
-
 ## Documentation
 - The Swagger documentation for the API is available at `/swagger-ui.html`.
 - A Postman collection is provided in the project repository for testing the API endpoints.
