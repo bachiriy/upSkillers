@@ -34,4 +34,10 @@ public class GlobalExceptionHandler {
     public ErrorResponse handleElementAlreadyExistsException(ElementAlreadyExistsException e){
         return new ErrorResponse(HttpStatus.CONFLICT.value(), e.getMessage());
     }
+
+    @ExceptionHandler(SprintInvalidException.class)
+    @ResponseStatus(HttpStatus.CONFLICT)
+    public ErrorResponse handleSprintInvalidException(SprintInvalidException e){
+        return new ErrorResponse(HttpStatus.CONFLICT.value(), e.getMessage());
+    }
 }

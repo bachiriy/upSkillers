@@ -50,6 +50,11 @@ public class TrainingProgram {
     @OneToMany(mappedBy = "trainingProgram", cascade = CascadeType.ALL)
     private List<Learner> learners;
 
+
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "sprint_id")
+    private Sprint sprint;
+
     @Override
     public String toString(){
         return String.format("Program[id: %d, title: %s, status: %s]", id, title, status.toString());
